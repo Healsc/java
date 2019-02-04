@@ -1,3 +1,7 @@
+/**
+ * 最大值
+ * 最小值
+ * */
 public class Class11 {
     public static void main(String[] args) {
         int[] arr ={1,2,3,4,5,9,8,7,6};
