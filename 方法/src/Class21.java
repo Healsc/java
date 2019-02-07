@@ -1,3 +1,6 @@
+/**
+ * 判断数组相等
+ * */
 import java.util.Arrays;
 
 public class Class21 {
