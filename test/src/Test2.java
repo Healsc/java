@@ -1,6 +1,6 @@
 public class Test2 {
     public static void main(String[] args){
-
+        searchInsert();
     }
     static int searchInsert(int[] nums, int target) {
         int flag = 0;
