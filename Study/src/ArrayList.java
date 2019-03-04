@@ -24,6 +24,10 @@ public class ArrayList {
         }
         size++;
     }
+    public void add(int index,int value){
+        data[index] = value;
+
+    }
     public int[] getData(){
         return this.data;
     }
@@ -31,7 +35,11 @@ public class ArrayList {
         return size;
     }
     public int get(int index){
-
-        return data[index];
+        if(index < 0 || index > data.length- 1 ){
+            return -1;
+        }else{
+            return data[index];
+        }
     }
+
 }
