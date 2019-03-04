@@ -44,7 +44,6 @@ public class Test4 {
             //检查下标是否越界
             rangCheck(index);
             return elementDate[index];
-
         }
 
         public void remove(int index){
@@ -72,7 +71,6 @@ public class Test4 {
                     e.printStackTrace();
                 }
             }
-
         }
 
         public void add(int index,Object obj) {
@@ -82,14 +80,12 @@ public class Test4 {
             elementDate[index]=obj;
             size++;
         }
-
         private void ensureCapacity() {
             if(size==elementDate.length) {
                 Object[] newarray = new Object[size*2+1];
                 System.arraycopy(elementDate, 0, newarray, 0, elementDate.length);
                 elementDate=newarray;
             }
-
         }
         public Object[] getData(){
             return elementDate;
