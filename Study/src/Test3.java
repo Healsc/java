@@ -11,6 +11,8 @@ public class Test3 {
             for(int j = 0;j < size;j++){
                 System.out.println(list.getData()[j]);
             }
+        System.out.println("------");
+        System.out.println(list.get(3));
         //System.out.println(list);
         //System.out.println(list.getData());
     }

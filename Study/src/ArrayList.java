@@ -30,4 +30,8 @@ public class ArrayList {
     public int getSize(){
         return size;
     }
+    public int get(int index){
+
+        return data[index];
+    }
 }
