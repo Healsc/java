@@ -4,10 +4,10 @@ public class Test3 {
 
             //list.add(1);
             //list.add(2);
-            for(int i = 0;i < 13;i++){
+            for(int i = 0;i < 5;i++){
               list.add(i);
             }
-            list.add(1,99);
+            list.add(3,99);
             int size = list.getSize();
             for(int j = 0;j < size;j++){
                 System.out.println(list.getData()[j]);

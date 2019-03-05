@@ -25,8 +25,19 @@ public class ArrayList {
         size++;
     }
     public void add(int index,int value){
-        data[index] = value;
+        if(index > 0 && index < size){
+            size++;
+            int temp = data[index];
+            int i = this.size - 2;
+            //System.out.println(i);
+            for(;i > index;i--){
+                data[i+1] = data[i];
+            }
+            data[index+1] = temp;
+            data[index] = value;
+        }else{
 
+        }
     }
     public int[] getData(){
         return this.data;
