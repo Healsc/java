@@ -39,6 +39,23 @@ public class ArrayList {
 
         }
     }
+    public void remove(int index){
+
+        for(;index < data.length-1;index++){
+            data[index] = data[index+1];
+        }
+        size--;
+        int[] arr = new int[size];
+        for(int i = 0;i < size;i++){
+            arr[i] = data[i];
+        }
+        //System.out.println(size);
+        /*for(int i = 0;i < size;i++){
+            System.out.println(arr[i]);
+        }*/
+       this.data = arr;
+
+    }
     public int[] getData(){
         return this.data;
     }
