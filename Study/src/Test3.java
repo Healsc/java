@@ -9,8 +9,8 @@ public class Test3 {
         }
         list.add(8,99);
         int size = list.getSize();
-        //list.remove(1);
-        for(int j = 0;j < size;j++){
+        list.remove(1);
+        for(int j = 0;j < size-1;j++){
             System.out.println(list.getData()[j]);
         }
         //System.out.println("------");
