@@ -9,7 +9,7 @@ public class Test7 {
     }
     static class Stack{
         private LinkedList list = new LinkedList();
-        
+
         public void push(Object num){
             list.addFirst(num);
         }

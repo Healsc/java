@@ -10,6 +10,5 @@ public class Test6 {
         }
         System.out.println("--");
         System.out.println(list1.get(3));
-        System.out.println("--");
     }
 }
