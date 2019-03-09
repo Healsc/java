@@ -36,7 +36,7 @@ public class ArrayList {
             data[index+1] = temp;
             data[index] = value;
         }else{
-
+            System.out.println("ERROR");
         }
     }
     public void remove(int index){
