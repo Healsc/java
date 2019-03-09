@@ -49,10 +49,6 @@ public class ArrayList {
         for(int i = 0;i < size;i++){
             arr[i] = data[i];
         }
-        //System.out.println(size);
-        /*for(int i = 0;i < size;i++){
-            System.out.println(arr[i]);
-        }*/
        this.data = arr;
 
     }
