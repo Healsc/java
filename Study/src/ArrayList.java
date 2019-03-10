@@ -50,7 +50,6 @@ public class ArrayList {
             arr[i] = data[i];
         }
        this.data = arr;
-
     }
     public int[] getData(){
         return this.data;
@@ -65,5 +64,4 @@ public class ArrayList {
             return data[index];
         }
     }
-
 }
