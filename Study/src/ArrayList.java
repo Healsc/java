@@ -2,8 +2,6 @@ public class ArrayList {
     private int capacity;
     private int size;
     int[] data;
-
-
     public ArrayList(int capacity_) {
         capacity = capacity_;
         size = 0;
